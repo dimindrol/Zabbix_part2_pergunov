@@ -19,8 +19,9 @@
 
 1. Так как Zabbix не разрешает привязывать Шаблоны с одинаковыми итемами поступил немного по другому
  ![image](https://github.com/dimindrol/Zabbix_part2_pergunov/assets/103885836/4705ce39-6ff9-4a03-adf2-3d943be7f4f4)
-2.Отвязал от Template OS Linux by Zabbix agent, Template CPU И RAM потому что они дублируют друг друга и привязал свой Template
+2.Отвязал от Template OS Linux by Zabbix agent, Template CPU И RAM потому что они дублируют мой template и привязал свой
 ![image](https://github.com/dimindrol/Zabbix_part2_pergunov/assets/103885836/93f67b02-1bdc-42ea-89d1-067b728dca6a)
+![image](https://github.com/dimindrol/Zabbix_part2_pergunov/assets/103885836/ec1f4d82-3df5-486e-98d1-deb7fefa138d)
 3.Необходимые данные поступают С помощью утилиты stress проверим, то что данные снимаются верно
 ![image](https://github.com/dimindrol/Zabbix_part2_pergunov/assets/103885836/78198cd4-62c2-4e9e-9ece-338da5948735)
 4. Скриншоты графиков нагрузки
